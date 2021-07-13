@@ -27,6 +27,9 @@
     text-align: center;
     padding-top: 150px;
     color: #032087; }
+    @media only screen and (min-width: 1600px) {
+      .firsSection_text {
+        padding-top: 30vh; } }
     .firsSection_text h2 {
       font-size: 27px; }
     .firsSection_text h3 {
@@ -94,6 +97,9 @@
   display: flex;
   justify-content: center;
   margin-top: 50px; }
+  @media only screen and (min-width: 1600px) {
+    .marketSumContainer {
+      margin-top: 90px; } }
   .marketSumContainer_container {
     background: #fff;
     display: inline-block;
@@ -265,6 +271,17 @@ section.features {
   background: transparent;
   border: none;
   color: #fff;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  font-weight: 500; }
   .curencySelect option {
+    font-weight: 700;
     background: grey; }
+
+.langSelect {
+  cursor: pointer;
+  color: #fff;
+  font-weight: 500;
+  margin-left: 6px;
+  margin-right: 10px; }
+  .langSelect > svg {
+    transform: translateY(-3px); }

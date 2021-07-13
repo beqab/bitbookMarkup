@@ -42,6 +42,9 @@ $color_darkBlue: #032087;
     text-align: center;
     padding-top: 150px;
     color: $color_darkBlue;
+    @media only screen and (min-width: 1600px) {
+      padding-top: 30vh;
+    }
     h2 {
       font-size: 27px;
     }
@@ -124,6 +127,9 @@ $color_darkBlue: #032087;
   display: flex;
   justify-content: center;
   margin-top: 50px;
+  @media only screen and (min-width: 1600px) {
+    margin-top: 90px;
+  }
   &_container {
     background: #fff;
     display: inline-block;
@@ -353,7 +359,20 @@ section.features {
   border: none;
   color: #fff;
   text-transform: uppercase;
+  font-weight: 500;
   option {
+    font-weight: 700;
     background: grey;
+  }
+}
+.langSelect {
+  cursor: pointer;
+  color: #fff;
+  font-weight: 500;
+  margin-left: 6px;
+  margin-right: 10px;
+
+  > svg {
+    transform: translateY(-3px);
   }
 }
